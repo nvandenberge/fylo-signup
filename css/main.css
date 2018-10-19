@@ -1,0 +1,27 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li a {
+  color: red;
+}
+
+body {
+  display: flex;
+}

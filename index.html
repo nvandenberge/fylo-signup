@@ -4,57 +4,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Beta sign up split layout Challenge</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 
 <body>
-  <header>
-    <a href="/">
-      <img src="assets/img/logo.svg" alt="Fylo logo">
-    </a>
-
-    <ul>
-      <li><a href="#"><img src="assets/icons/twitter.svg" alt="twitter logo" width="30px"></a></li>
-      <li><a href="#"><img src="assets/icons/facebook.svg" alt="twitter logo" width="30px"></a></li>
-      <li><a href="#"><img src="assets/icons/email.svg" alt="twitter logo" width="30px"></a></li>
-    </ul>
-  </header>
-  <h1>All your files in one secure location, accessible anywhere.</h1>
-
-  <section>
-    <p>Fylo stores all your most important files in one secure location.
-      Access them wherever you need, share and collaborate with friends,
-      family and co-workers.</p>
+  <section class="left">
+    <img src="" alt="">
   </section>
 
-  <form action="">
-    <fieldset>
-      <legend>Sign up for early access</legend>
-      <label for="email box">
-        <input type="email">
-      </label>
-      <label for="submit button">
-        <button type="submit" name="signup">Sign Up</button>
-      </label>
-    </fieldset>
-  </form>
+  <section class="left">
+      <header>
+        <a href="/">
+          <img src="assets/img/logo.svg" alt="Fylo logo">
+        </a>
 
-  Sign Up
+        <ul>
+          <li><a href="#"><img src="assets/icons/twitter.svg" alt="twitter logo" width="30px"></a></li>
+          <li><a href="#"><img src="assets/icons/facebook.svg" alt="twitter logo" width="30px"></a></li>
+          <li><a href="#"><img src="assets/icons/email.svg" alt="twitter logo" width="30px"></a></li>
+        </ul>
+      </header>
+      <h1>All your files in one secure location, accessible anywhere.</h1>
 
-  Privacy Policy
+      <section>
+        <p>
+          Fylo stores all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family and co-workers.
+        </p>
+      </section>
 
-  <footer>
-    <p class="attribution">
-      This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
-    </p>
-  </footer>
+      <form action="">
+        <fieldset>
+          <legend>Sign up for early access</legend>
+          <label for="email">
+            Enter your email address:<input type="email" id="email">
+          </label>
+          <label for="submit button">
+            <button type="submit" id="submit">Sign Up</button>
+          </label>
+        </fieldset>
+      </form>
+
+      Sign Up
+
+      Privacy Policy
+
+      <footer>
+        <p class="attribution">
+          This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
+        </p>
+      </footer>
+  </section>
 </body>
-
 </html>
