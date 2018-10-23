@@ -103,5 +103,10 @@ button {
   color: white;
   font-weight: bold;
   font-size: 1em;
-  margin-left: 10px
+  margin-left: 10px;
+  margin-bottom: 20%;
+}
+
+footer {
+  padding-top: 20%;
 }
