@@ -58,7 +58,6 @@ main {
   width: 70%;
   height: 100%;
   align-items: center;
-  font-family: 'Raleway', sans-serif;
 }
 
 main div {
@@ -69,11 +68,15 @@ main div {
 h1 {
   font-weight: 900;
   font-size: 2em;
+  font-family: 'Open-Sans', sans-serif;
+
 }
 
 p {
   color: gray;
   padding-bottom: 5%;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 fieldset {
@@ -83,6 +86,17 @@ fieldset {
 legend {
   font-weight: 900;
   font-size: 1.3em;
+  font-family: 'Open-Sans', sans-serif;
+
+}
+
+label.hidden {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
 }
 
 input[type=email] {
@@ -104,9 +118,9 @@ button {
   font-weight: bold;
   font-size: 1em;
   margin-left: 10px;
-  margin-bottom: 20%;
 }
 
 footer {
   padding-top: 20%;
+  font-family: 'Raleway', sans-serif;
 }
