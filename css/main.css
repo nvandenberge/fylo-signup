@@ -12,7 +12,7 @@
 } */
 html, body {
   width: 100%;
-  /* height: 100%; */
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -22,14 +22,14 @@ html, body {
   flex-direction: column;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 58em) {
   #split {
     display: flex;
     flex-direction: row;
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width: 58em) {
   section#left, section#right {
     height: 100vh;
     width: 50vw;
@@ -40,7 +40,8 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(45deg, #80689e, #0f0191);
+  /* background: linear-gradient(45deg, #80689e, #0f0191); */
+  background: hsl(228, 45%, 44%);
   overflow-x: hidden;
 }
 
@@ -63,15 +64,14 @@ ul li {
 }
 
 header {
-  background: linear-gradient(45deg, #80689e, #0f0191);
+  background: hsl(228, 45%, 44%);
   display: flex;
   justify-content: space-between;
-  /* margin: 25px; */
   font-family: 'Raleway', sans-serif;
   padding: 2em;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 52em) {
   header {
     background: none;
     position: absolute;
@@ -82,8 +82,8 @@ header {
 
 main {
   display: flex;
-  width: 70%;
-  height: 100vh;
+  width: 60%;
+  height: 80vh;
   align-items: center;
 }
 
@@ -101,10 +101,12 @@ h1 {
 p {
   color: gray;
   font-family: 'Raleway', sans-serif;
+  padding-bottom: 5%;
 }
 
 fieldset {
   border: none;
+  padding: 0;
 }
 
 legend {
@@ -130,6 +132,7 @@ input[type=email] {
   border-color: white;
   border-radius: 5px;
   margin-top: 10px;
+  margin-right: 12px;
   cursor: pointer;
 }
 
@@ -141,11 +144,15 @@ button {
   color: white;
   font-weight: bold;
   font-size: 1em;
-  margin-left: 10px;
+}
+
+@media (max-width: 93em) {
+  button {
+    margin-top: 12px;
+  }
 }
 
 footer {
-  /* padding-top: 20%; */
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
